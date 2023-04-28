@@ -1,3 +1,3 @@
 ChatGPT Logs
 
-[Game Designer Example](./gamedesigner.html)
+[Game Designer Example](./GameDesigner.html)
