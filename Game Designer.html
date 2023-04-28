@@ -1,0 +1,467 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Designer</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h2 id="user">USER</h2>
+<p>I want you to assume the role of lead game designer and project lead, an expert in your field of designing survival horror games, with 20 years of experience and many games shipped. I want you to provide a general outline of the game we have discussed so far and how to approach each game mechanic, game system and gameplay elements, you are now in a meeting with the entire team of devs and I want you to brainstorm ideas for the game. Outline each concept and section you see fit, and create a general outline on how we should start with the prototype of the game.</p>
+<p>The game idea is a game that’s similar to the classic resident evil 1, 2 and 3 from the 90s and the games silent hill 1, 2 and 3. Some general ideas; the game should feature dynamic environment and dynamic events, random level generation and adaptive difficulty and AI that responds to challenges.</p>
+<h2 id="assistant">ASSISTANT</h2>
+<p>Alright, team. The project we have on hand is an exciting mix of survival horror, tactical decision making, and dynamic gameplay. We’re looking to fuse the classic atmospheric horror of Resident Evil and Silent Hill with modern procedural generation and adaptive AI techniques.</p>
+<p>Let’s break down our focus areas, and brainstorm how we can breathe life into this ambitious project.</p>
+<ol>
+<li><strong>Game Setting and Atmosphere:</strong></li>
+</ol>
+<p>Our game setting will be a central pillar of the game’s appeal. We want to evoke the same sense of claustrophobic tension and dread as the classic survival horror games. This means we’ll need to craft a world that’s rich in detail, filled with atmospheric lighting, unsettling audio cues, and a sense of foreboding.</p>
+<p>We could consider a range of settings - an abandoned hospital, a derelict mansion, or even an entire ghost town. Each location could have its own unique aesthetics, enemies, and challenges.</p>
+<ol start="2">
+<li><strong>Dynamic Environment and Events:</strong></li>
+</ol>
+<p>The environment needs to feel alive and unpredictable. This means incorporating dynamic weather, time of day changes, and destructible environments. We could also include random events - power outages, collapsing structures, or new enemy spawns.</p>
+<ol start="3">
+<li><strong>Random Level Generation:</strong></li>
+</ol>
+<p>Procedurally generated levels will enhance replayability and unpredictability. However, we must ensure that the level design still supports tension and fear. We’ll need to develop an algorithm that can create levels that are both functionally coherent and atmospherically consistent.</p>
+<ol start="4">
+<li><strong>Adaptive Difficulty and AI:</strong></li>
+</ol>
+<p>The AI will be a key factor in maintaining the game’s tension. It should adapt to the player’s skill level and tactics, learning from their behavior and presenting new challenges accordingly. For example, if a player frequently uses stealth, enemies could become more sensitive to sound.</p>
+<p>The adaptive difficulty should be more nuanced than simply increasing enemy health or damage. Instead, we might see more enemies, smarter AI, or fewer resources as the player becomes more skilled.</p>
+<ol start="5">
+<li><strong>Gameplay Mechanics:</strong></li>
+</ol>
+<p>Gameplay will fuse survival and horror elements. Resource management will be critical - ammunition, health supplies, and other resources should be scarce.</p>
+<p>Combat should be a risky last resort, not a first choice. We’ll need to design enemies that are genuinely threatening, requiring players to think tactically and consider their options carefully.</p>
+<p>Additionally, puzzles and exploration will be key features. Solving complex puzzles under pressure can lead to valuable resources or open up new paths.</p>
+<p>Now, let’s move on to the prototype phase. This will allow us to test our core gameplay loop and make necessary adjustments before we get too deep into development.</p>
+<ol>
+<li><strong>Developing the Prototype:</strong></li>
+</ol>
+<p>We’ll start by creating a small, representative slice of the game. This should include one complete, procedurally generated level with a variety of dynamic events and a handful of enemy types.</p>
+<p>Our main focus will be on:</p>
+<ul>
+<li>
+<p>The level generation algorithm: Ensuring it creates playable, coherent, and atmospheric levels.</p>
+</li>
+<li>
+<p>The AI: It should pose a genuine challenge and adapt to the player’s tactics.</p>
+</li>
+<li>
+<p>The core gameplay loop: Exploration, resource management, combat, and puzzle-solving should all be included.</p>
+</li>
+</ul>
+<p>Our goal is to create a compelling, fun, and scary experience within this small slice of the game. We will iterate on this prototype until we have a solid foundation to build the rest of the game on.</p>
+<p>Remember, this is a team effort. We need everyone’s input and creativity to make this project a success. Let’s take our time, make sure we get it right, and create a survival horror game that will scare players in all the right ways.</p>
+<p>Now, let’s brainstorm and hear some ideas from you.</p>
+<h2 id="user-1">USER</h2>
+<p>Let’s break down the prototype and what we need to work on to create an MVP, break down the components, create outlines for each concept and how they should be planned and execute, create a backlog for each of these, order them in the order of importance and the sequence they need to be made in for the prototype to function properly.</p>
+<h2 id="assistant-1">ASSISTANT</h2>
+<p>Alright, to create a successful Minimum Viable Product (MVP), we need to identify the core components that will make our game both unique and enjoyable. Let’s break down the elements and create a backlog of tasks.</p>
+<ol>
+<li><strong>Game Setting and Atmosphere:</strong></li>
+</ol>
+<ul>
+<li>
+<p>Concept Art: We need to visualize our environment - be it a hospital, mansion, or a ghost town.</p>
+</li>
+<li>
+<p>Audio Design: Create preliminary audio cues and background music.</p>
+</li>
+<li>
+<p>Lighting and Atmosphere: Test different lighting scenarios for mood setting.</p>
+</li>
+<li>
+<p>Backlog: Concept Art &gt; Basic 3D Models &gt; Audio Design &gt; Lighting Tests.</p>
+</li>
+</ul>
+<ol start="2">
+<li><strong>Dynamic Environment and Events:</strong></li>
+</ol>
+<ul>
+<li>
+<p>Environmental Design: Create destructible elements and varying weather conditions.</p>
+</li>
+<li>
+<p>Event Triggers: Develop systems for random events like power outages or structural collapses.</p>
+</li>
+<li>
+<p>Backlog: Event Mechanic Concept &gt; Environmental Design &gt; Event Trigger Programming.</p>
+</li>
+</ul>
+<ol start="3">
+<li><strong>Random Level Generation:</strong></li>
+</ol>
+<ul>
+<li>
+<p>Level Design Algorithm: Create an algorithm for generating random, yet coherent levels.</p>
+</li>
+<li>
+<p>Test Levels: Generate and playtest several levels to ensure they are functional and atmospheric.</p>
+</li>
+<li>
+<p>Backlog: Algorithm Design &gt; Basic Level Generation &gt; Playtesting &gt; Level Refinements.</p>
+</li>
+</ul>
+<ol start="4">
+<li><strong>Adaptive Difficulty and AI:</strong></li>
+</ol>
+<ul>
+<li>
+<p>AI Design: Develop an AI system that can learn from the player’s actions.</p>
+</li>
+<li>
+<p>Difficulty Scaling: Create systems for adjusting difficulty based on player performance.</p>
+</li>
+<li>
+<p>Backlog: Basic Enemy AI &gt; Player Behavior Tracking &gt; Adaptive Difficulty Implementation &gt; AI Refinements.</p>
+</li>
+</ul>
+<ol start="5">
+<li><strong>Gameplay Mechanics:</strong></li>
+</ol>
+<ul>
+<li>
+<p>Resource Management: Develop systems for resource scarcity and item usage.</p>
+</li>
+<li>
+<p>Combat System: Create a basic combat system, making it a risky choice.</p>
+</li>
+<li>
+<p>Puzzles: Design simple yet engaging puzzles that can be solved under pressure.</p>
+</li>
+<li>
+<p>Backlog: Basic Resource System &gt; Combat Mechanics &gt; Basic Enemy Design &gt; Puzzle Mechanic &gt; Advanced Enemy Design.</p>
+</li>
+</ul>
+<p>Given the dependencies between these components, we should prioritize them in the following order:</p>
+<ol>
+<li>
+<p>Game Setting and Atmosphere</p>
+</li>
+<li>
+<p>Gameplay Mechanics</p>
+</li>
+<li>
+<p>Adaptive Difficulty and AI</p>
+</li>
+<li>
+<p>Dynamic Environment and Events</p>
+</li>
+<li>
+<p>Random Level Generation</p>
+</li>
+</ol>
+<p>The game setting and atmosphere lay the foundation for the rest of the game. We need to know what we’re working with before we can design effective gameplay mechanics or AI.</p>
+<p>Next, we’ll start on the gameplay mechanics. This is the core of our game, so we need to get it right. Once we have our basic mechanics down, we can start working on the AI and adaptive difficulty.</p>
+<p>Dynamic environments and events will add depth to our gameplay, so we’ll tackle those next. Finally, we’ll handle the random level generation. This is last because we need to have all the other components in place before we can effectively generate levels that include all of these elements.</p>
+<p>Now, let’s get to work and create a game that will push the boundaries of the survival horror genre.</p>
+<h2 id="user-2">USER</h2>
+<p>I want you to assume the role of Lead Programmer, a senior unity3d developer with 20 years of experience who knows the best practices to write clean and maintainable code that’s well documented, the code should be as modular as possible and follow the best programming practices where possible, it should be easy to add functionality with inheritance.</p>
+<p>Let’s start out by evaluating what scripts we need, how we can use the information we have so far and create all the new scripts, while also looking at how they all will interact with each other so we can plan ahead, so for each script in the list just write out the names of the methods or classes that will be used and how they will be used, keeping in mind the total list of scripts and how each has to fit with each other, making sure it’s easy to modify and is modular so that changes that need to be made are easier to do without needing to rewrite all scripts.</p>
+<h2 id="assistant-2">ASSISTANT</h2>
+<p>As a seasoned Unity developer, I appreciate the importance of clean, modular code. We’ll use Object Oriented Programming (OOP) principles, to ensure scripts are easily extendable and maintainable. Here’s a high-level view of the scripts we will need, with potential classes and methods:</p>
+<ol>
+<li><strong>GameManager Script</strong></li>
+</ol>
+<ul>
+<li>
+<p>Singleton pattern for maintaining game state across different scenes.</p>
+</li>
+<li>
+<p>Methods: StartGame(), EndGame(), PauseGame(), etc.</p>
+</li>
+</ul>
+<ol start="2">
+<li><strong>LevelGenerator Script</strong></li>
+</ol>
+<ul>
+<li>
+<p>Procedural generation of environments.</p>
+</li>
+<li>
+<p>Methods: GenerateLevel(), PlaceEnemies(), TriggerEvent(), etc.</p>
+</li>
+</ul>
+<ol start="3">
+<li><strong>Character Script (abstract)</strong></li>
+</ol>
+<ul>
+<li>
+<p>Base class for Player and Enemies.</p>
+</li>
+<li>
+<p>Methods: Move(), TakeDamage(), Die().</p>
+</li>
+</ul>
+<ol start="4">
+<li><strong>PlayerController Script (inherits from Character)</strong></li>
+</ol>
+<ul>
+<li>
+<p>Player-specific interactions.</p>
+</li>
+<li>
+<p>Methods: CollectItem(), UseItem(), Interact(), SolvePuzzle(), etc.</p>
+</li>
+</ul>
+<ol start="5">
+<li><strong>EnemyController Script (inherits from Character)</strong></li>
+</ol>
+<ul>
+<li>
+<p>Control enemy behaviors.</p>
+</li>
+<li>
+<p>Methods: Patrol(), ChasePlayer(), Attack(), etc.</p>
+</li>
+</ul>
+<ol start="6">
+<li><strong>AIController Script</strong></li>
+</ol>
+<ul>
+<li>
+<p>AI behaviors and decision-making.</p>
+</li>
+<li>
+<p>Methods: AssessSituation(), ChooseAction(), LearnBehavior(), etc.</p>
+</li>
+</ul>
+<ol start="7">
+<li><strong>DifficultyController Script</strong></li>
+</ol>
+<ul>
+<li>
+<p>Adapt game difficulty.</p>
+</li>
+<li>
+<p>Methods: AdjustDifficulty(), MonitorPlayerPerformance().</p>
+</li>
+</ul>
+<ol start="8">
+<li><strong>Inventory Script</strong></li>
+</ol>
+<ul>
+<li>
+<p>Manage player inventory.</p>
+</li>
+<li>
+<p>Methods: AddItem(), RemoveItem(), UseItem(), etc.</p>
+</li>
+</ul>
+<ol start="9">
+<li><strong>CombatController Script</strong></li>
+</ol>
+<ul>
+<li>
+<p>Manage combat interactions.</p>
+</li>
+<li>
+<p>Methods: Attack(), Defend(), Dodge(), etc.</p>
+</li>
+</ul>
+<ol start="10">
+<li><strong>PuzzleController Script</strong></li>
+</ol>
+<ul>
+<li>
+<p>Control puzzle behaviors and solutions.</p>
+</li>
+<li>
+<p>Methods: InitializePuzzle(), CheckSolution(), CompletePuzzle(), etc.</p>
+</li>
+</ul>
+<ol start="11">
+<li><strong>SoundManager Script</strong></li>
+</ol>
+<ul>
+<li>
+<p>Handle in-game audio.</p>
+</li>
+<li>
+<p>Methods: PlaySound(), StopSound(), ChangeVolume(), etc.</p>
+</li>
+</ul>
+<ol start="12">
+<li><strong>UIManager Script</strong></li>
+</ol>
+<ul>
+<li>
+<p>Control UI elements.</p>
+</li>
+<li>
+<p>Methods: UpdateHealthBar(), UpdateInventoryDisplay(), ShowPauseMenu(), etc.</p>
+</li>
+</ul>
+<p>Each of these scripts will be developed with modularity in mind. This way, we can easily modify or extend functionality without having to overhaul existing code. They will interact with each other via public methods or through Unity’s built-in event system to keep dependencies to a minimum.</p>
+<p>For instance, when the player picks up an item (PlayerController.CollectItem()), it’s added to the inventory (Inventory.AddItem()). When the player uses an item (PlayerController.UseItem()), the Inventory script checks if the item is available (Inventory.UseItem()).</p>
+<p>By keeping our code modular and using inheritance where appropriate, we can build a solid codebase that’s easy to understand, maintain, and extend. Let’s create a flexible and efficient system together.</p>
+<h2 id="user-3">USER</h2>
+<p>now create a game design document with all of this information in mind</p>
+<h2 id="assistant-3">ASSISTANT</h2>
+<h1 id="game-design-document">Game Design Document</h1>
+<h2 id="game-title-tbd">Game Title: TBD</h2>
+<h2 id="genre-survival-horror">Genre: Survival Horror</h2>
+<h3 id="game-overview">1. Game Overview</h3>
+<p>Our game aims to bring back the classic atmospheric survival horror experiences of Resident Evil and Silent Hill, enhanced with modern gaming elements such as dynamic environments, random level generation, and adaptive AI.</p>
+<h3 id="game-concept">2. Game Concept</h3>
+<p>Players will navigate through claustrophobic and eerie environments, managing scarce resources, solving puzzles, and avoiding or confronting enemies. The game world will evolve dynamically, with unexpected events and changes in environment adding to the tension. The game’s AI will adapt to the player’s behavior, making survival more challenging as the game progresses.</p>
+<h3 id="game-setting">3. Game Setting</h3>
+<p>The game setting could range from an abandoned hospital, a derelict mansion, or even an entire ghost town. Each location will have its unique aesthetics, enemies, and challenges.</p>
+<h3 id="game-mechanics">4. Game Mechanics</h3>
+<h4 id="gameplay">Gameplay</h4>
+<ul>
+<li>
+<p>Exploration: Players explore the creepy environments, looking for resources, and clues.</p>
+</li>
+<li>
+<p>Resource Management: Scarce ammunition, health supplies, and other resources that players must conserve to survive.</p>
+</li>
+<li>
+<p>Combat: Risky and should be a last resort. Enemies are threatening and require tactical thinking to defeat.</p>
+</li>
+<li>
+<p>Puzzles: Solving complex puzzles under pressure can lead to valuable resources or new paths.</p>
+</li>
+</ul>
+<h4 id="dynamic-environment-and-events">Dynamic Environment and Events</h4>
+<ul>
+<li>
+<p>Weather changes, day and night cycles, destructible environments.</p>
+</li>
+<li>
+<p>Random events such as power outages, collapsing structures, or new enemy spawns.</p>
+</li>
+</ul>
+<h4 id="random-level-generation">Random Level Generation</h4>
+<ul>
+<li>Procedurally generated levels to enhance replayability and unpredictability.</li>
+</ul>
+<h4 id="adaptive-difficulty-and-ai">Adaptive Difficulty and AI</h4>
+<ul>
+<li>AI and difficulty that adapt to the player’s skill level and tactics.</li>
+</ul>
+<h3 id="technical-aspects">5. Technical Aspects</h3>
+<p>The game will be built in Unity3D. We’ll follow best programming practices to ensure our code is clean, maintainable, and well documented.</p>
+<p>Scripts and their interactions</p>
+<h2 id="user-4">USER</h2>
+<p>Please continue</p>
+<h2 id="assistant-4">ASSISTANT</h2>
+<h3 id="technical-aspects-continued">5. Technical Aspects (Continued)</h3>
+<h4 id="scripts-and-their-interactions">Scripts and their interactions:</h4>
+<ol>
+<li><strong>GameManager Script</strong></li>
+</ol>
+<ul>
+<li>Coordinates between all other scripts and maintains the game state.</li>
+</ul>
+<ol start="2">
+<li><strong>LevelGenerator Script</strong></li>
+</ol>
+<ul>
+<li>Responsible for procedurally generating levels and triggering dynamic events.</li>
+</ul>
+<ol start="3">
+<li><strong>Character Script</strong></li>
+</ol>
+<ul>
+<li>Base class for all characters (Player and Enemies) in the game.</li>
+</ul>
+<ol start="4">
+<li><strong>PlayerController Script</strong></li>
+</ol>
+<ul>
+<li>Handles player-specific actions and interactions.</li>
+</ul>
+<ol start="5">
+<li><strong>EnemyController Script</strong></li>
+</ol>
+<ul>
+<li>Controls enemy behaviors and AI.</li>
+</ul>
+<ol start="6">
+<li><strong>AIController Script</strong></li>
+</ol>
+<ul>
+<li>Handles AI decision-making, learning, and behavior adaptation.</li>
+</ul>
+<ol start="7">
+<li><strong>DifficultyController Script</strong></li>
+</ol>
+<ul>
+<li>Monitors player performance and adjusts game difficulty.</li>
+</ul>
+<ol start="8">
+<li><strong>Inventory Script</strong></li>
+</ol>
+<ul>
+<li>Manages player inventory and item usage.</li>
+</ul>
+<ol start="9">
+<li><strong>CombatController Script</strong></li>
+</ol>
+<ul>
+<li>Manages combat mechanics, weapon handling, and damage calculations.</li>
+</ul>
+<ol start="10">
+<li><strong>PuzzleController Script</strong></li>
+</ol>
+<ul>
+<li>Controls puzzle mechanics, solutions, and event triggers.</li>
+</ul>
+<ol start="11">
+<li><strong>SoundManager Script</strong></li>
+</ol>
+<ul>
+<li>Handles all in-game sounds and music.</li>
+</ul>
+<ol start="12">
+<li><strong>UIManager Script</strong></li>
+</ol>
+<ul>
+<li>Manages all in-game UI elements.</li>
+</ul>
+<h3 id="art-and-sound">6. Art and Sound</h3>
+<h4 id="art">Art:</h4>
+<ul>
+<li>
+<p>The game will have a realistic, grim aesthetic to enhance the horror atmosphere.</p>
+</li>
+<li>
+<p>Level designs will be varied and detailed, with plenty of environmental storytelling elements.</p>
+</li>
+</ul>
+<h4 id="sound">Sound:</h4>
+<ul>
+<li>
+<p>The sound design will focus on creating a tense, eerie atmosphere.</p>
+</li>
+<li>
+<p>Music will be minimalistic, used sparingly to highlight key moments or encounters.</p>
+</li>
+</ul>
+<h3 id="project-timeline">7. Project Timeline</h3>
+<p>Project milestones and deadlines will be set based on the components and backlogs identified earlier. We aim to have a playable prototype within 3-6 months, with full development lasting approximately 1-2 years.</p>
+<h3 id="target-audience">8. Target Audience</h3>
+<p>The game is targeted at mature audiences who enjoy survival horror games and are looking for a challenging, atmospheric experience with a strong emphasis on strategy and tactics.</p>
+<h3 id="platform">9. Platform</h3>
+<p>Initial release on PC, with potential console ports depending on the success of the game.</p>
+<h3 id="marketing--monetization">10. Marketing &amp; Monetization</h3>
+<ul>
+<li>
+<p>Marketing will focus on the game’s unique blend of classic survival horror elements and modern procedural generation and adaptive AI.</p>
+</li>
+<li>
+<p>The game will be sold at a premium price, with potential for DLC or expansion packs in the future.</p>
+</li>
+</ul>
+<p>This Game Design Document provides a high-level overview of our game’s vision, and it will guide us as we move into the development phase. It’s a living document and will be updated and revised as the project evolves.</p>
+</div>
+</body>
+
+</html>
